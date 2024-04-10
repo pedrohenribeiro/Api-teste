@@ -1,0 +1,38 @@
+.content-area-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-;
+  gap: 16px;
+  flex-wrap: wrap;
+  width: 300px;
+
+  .area-top-title {
+    color: var(--light-color);
+  }
+  
+  .area-top-l {
+    display: flex;
+    align-items: center;
+    column-gap: 6px;
+  }
+  .content-area-top,.area-top-r,.area-top-l,.custom-date-range,.rdrDateDisplayWrapper,.rdrDateRangeWrapper,.rdrMonth{
+    width: 300px;
+  }
+  .custom-date-range .rdrDateRangeWrapper {
+    background-color: var(--chart-secondary-color);
+  }
+
+  .rdrDateDisplayWrapper {
+    background-color: var(--chart-secondary-color);
+    border-color: var(--chart-secondary-color);
+    outline: var(--chart-secondary-color);
+
+    * {
+      background-color: var(--chart-secondary-color);
+      border-color: var(--chart-secondary-color);
+      outline: var(--chart-secondary-color);
+      box-shadow: none;
+      color: #ffffff;
+    }
+  }
+}
